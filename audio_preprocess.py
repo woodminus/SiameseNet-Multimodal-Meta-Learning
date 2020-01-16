@@ -6,4 +6,6 @@ Created on Sat May  2 14:17:29 2020
 """
 import matplotlib.pyplot as plt
 import librosa
-impor
+import librosa.display
+
+def spectr
