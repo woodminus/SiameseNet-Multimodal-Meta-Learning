@@ -9,4 +9,4 @@ import librosa
 import librosa.display
 
 def spectrogram(file_name):
-    x, sr = 
+    x, sr = librosa.load(file_name, sr=44100)
