@@ -10,3 +10,5 @@ import librosa.display
 
 def spectrogram(file_name):
     x, sr = librosa.load(file_name, sr=44100)
+    X = librosa.stft(x)
+    Xdb
