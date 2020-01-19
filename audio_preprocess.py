@@ -8,4 +8,5 @@ import matplotlib.pyplot as plt
 import librosa
 import librosa.display
 
-def spectr
+def spectrogram(file_name):
+    x, sr = 
