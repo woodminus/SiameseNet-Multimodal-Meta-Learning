@@ -12,4 +12,4 @@ def spectrogram(file_name):
     x, sr = librosa.load(file_name, sr=44100)
     X = librosa.stft(x)
     Xdb = librosa.amplitude_to_db(abs(X))
-    retur
+    return Xdb
