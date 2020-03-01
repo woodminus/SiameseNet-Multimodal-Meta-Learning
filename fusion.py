@@ -17,4 +17,4 @@ from keras.optimizers import RMSprop
 
 import tensorflow as tf
 
-def 
+def multi_modal_network
