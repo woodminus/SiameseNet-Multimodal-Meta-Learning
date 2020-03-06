@@ -18,4 +18,6 @@ from keras.optimizers import RMSprop
 import tensorflow as tf
 
 def multi_modal_network(input_shape):
-   kernel_s
+   kernel_size = 3
+   seq = Sequential()
+   seq.add(Co
