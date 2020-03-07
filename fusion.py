@@ -20,4 +20,5 @@ import tensorflow as tf
 def multi_modal_network(input_shape):
    kernel_size = 3
    seq = Sequential()
-   seq.add(Convolution2D(6, kernel_size=(3,3), input_sha
+   seq.add(Convolution2D(6, kernel_size=(3,3), input_shape=(27, 37, 32)))
+   seq.add(A
