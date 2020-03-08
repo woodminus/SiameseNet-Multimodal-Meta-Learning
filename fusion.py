@@ -22,4 +22,4 @@ def multi_modal_network(input_shape):
    seq = Sequential()
    seq.add(Convolution2D(6, kernel_size=(3,3), input_shape=(27, 37, 32)))
    seq.add(Activation('relu'))
-   seq.a
+   seq.add(MaxPooling2D(pool_size=(2, 2))
