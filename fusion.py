@@ -25,4 +25,4 @@ def multi_modal_network(input_shape):
    seq.add(MaxPooling2D(pool_size=(2, 2)))
    seq.add(Dropout(.25))
    seq.add(Flatten())
-   seq.ad
+   seq.add(Dense(128, activation='relu'))
