@@ -26,3 +26,4 @@ def multi_modal_network(input_shape):
    seq.add(Dropout(.25))
    seq.add(Flatten())
    seq.add(Dense(128, activation='relu'))
+   seq.add(Dropout(0.1))
