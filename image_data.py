@@ -22,3 +22,21 @@ def data():
         if(count[y_train[i]]<2):
             x_num.append(x_train[i])
             y_num.append(y_train[i])
+            count[y_train[i]] += 1
+        elif(count[y_train[i]]==2):
+            num += 1
+            count[y_train[i]] = 3
+        i = i+1
+    img_a=[]
+    img_b=[]
+    img_y=[]
+    for i in range(0,10):
+        a = x_num[i]
+        for j in range(0,10):
+            img_a.append(a)
+            img_b.append(x_num[j])
+            if(y_num[i]==y_num[j]):
+                img_y.append(y_num[i])
+            else:
+                img_y.append(-1)
+    return img_a,img_b,img_y
