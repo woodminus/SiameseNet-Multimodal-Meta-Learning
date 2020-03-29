@@ -28,4 +28,4 @@ def multi_modal_network(input_shape):
    seq.add(Dense(128, activation='relu'))
    seq.add(Dropout(0.1))
    seq.add(Dense(50, activation='relu'))
-   return s
+   return seq
