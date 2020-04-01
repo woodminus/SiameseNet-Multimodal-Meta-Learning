@@ -6,4 +6,7 @@ Created on Fri May  1 21:15:25 2020
 """
 
 import re
-import numpy a
+import numpy as np
+from PIL import Image
+
+f
