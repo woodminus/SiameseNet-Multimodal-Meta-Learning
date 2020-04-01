@@ -5,4 +5,5 @@ Created on Fri May  1 21:15:25 2020
 @author: HP
 """
 
-import
+import re
+import numpy a
