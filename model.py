@@ -17,4 +17,7 @@ from keras.models import Sequential, Model
 from keras.optimizers import RMSprop
 
 import tensorflow as tf
-import feature
+import feature_extractor
+import fusion
+
+def siamese_n
