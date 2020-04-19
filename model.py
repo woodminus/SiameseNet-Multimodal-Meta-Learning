@@ -16,4 +16,5 @@ from keras.layers import Input, Lambda, Dense, Dropout, Convolution2D, MaxPoolin
 from keras.models import Sequential, Model
 from keras.optimizers import RMSprop
 
-import ten
+import tensorflow as tf
+import feature
