@@ -20,4 +20,6 @@ import tensorflow as tf
 import feature_extractor
 import fusion
 
-def siamese_network(input_dim_img,input_
+def siamese_network(input_dim_img,input_dim_aud):
+    
+    img_a = Input(
