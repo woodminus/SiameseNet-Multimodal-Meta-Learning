@@ -23,4 +23,5 @@ import fusion
 def siamese_network(input_dim_img,input_dim_aud):
     
     img_a = Input(shape=input_dim_img)
-    img_b = Input
+    img_b = Input(shape=input_dim_img)
+  
