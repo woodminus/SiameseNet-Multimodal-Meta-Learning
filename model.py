@@ -28,4 +28,4 @@ def siamese_network(input_dim_img,input_dim_aud):
     aud_b = Input(shape=input_dim_aud)
 
     img_network = feature_extractor.image_feat_network(input_dim_img)
-    feat_im
+    feat_img_a = img_network(img_a)
