@@ -32,4 +32,5 @@ def siamese_network(input_dim_img,input_dim_aud):
     feat_img_b = img_network(img_b)
     
     aud_network = feature_extractor.audio_feat_network(input_dim_aud)
-    feat_aud_a = aud_network
+    feat_aud_a = aud_network(aud_a)
+    feat_aud_b = aud_network(aud_b)
