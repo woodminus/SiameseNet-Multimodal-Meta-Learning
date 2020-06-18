@@ -36,4 +36,4 @@ def siamese_network(input_dim_img,input_dim_aud):
     feat_aud_b = aud_network(aud_b)
     
     concat_a = Concatenate(axis=2)([feat_img_a, feat_aud_a])
-    concat_b = Concatenate(ax
+    concat_b = Concatenate(axis=2)([feat_img_b, feat_aud_b])
