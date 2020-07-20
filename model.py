@@ -38,4 +38,5 @@ def siamese_network(input_dim_img,input_dim_aud):
     concat_a = Concatenate(axis=2)([feat_img_a, feat_aud_a])
     concat_b = Concatenate(axis=2)([feat_img_b, feat_aud_b])
     
-    input_dim = (27,37,3
+    input_dim = (27,37,32)
+    base_netwo
