@@ -43,4 +43,7 @@ def siamese_network(input_dim_img,input_dim_aud):
     feat_vecs_a = base_network(concat_a)
     feat_vecs_b = base_network(concat_b)
 
-    distance = Lambda(euclidean_distance, output_shape=eucl_dist_output_shape)([feat_vecs_a ,feat_vecs_b
+    distance = Lambda(euclidean_distance, output_shape=eucl_dist_output_shape)([feat_vecs_a ,feat_vecs_b])
+    
+    rms = RMSprop()
+  
