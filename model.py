@@ -39,4 +39,5 @@ def siamese_network(input_dim_img,input_dim_aud):
     concat_b = Concatenate(axis=2)([feat_img_b, feat_aud_b])
     
     input_dim = (27,37,32)
-    base_network = fusion.multi_modal_networ
+    base_network = fusion.multi_modal_network(input_dim)
+    feat_v
