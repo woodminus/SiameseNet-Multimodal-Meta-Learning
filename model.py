@@ -42,3 +42,5 @@ def siamese_network(input_dim_img,input_dim_aud):
     base_network = fusion.multi_modal_network(input_dim)
     feat_vecs_a = base_network(concat_a)
     feat_vecs_b = base_network(concat_b)
+
+    distance = Lambda(euclide
