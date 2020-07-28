@@ -46,4 +46,5 @@ def siamese_network(input_dim_img,input_dim_aud):
     distance = Lambda(euclidean_distance, output_shape=eucl_dist_output_shape)([feat_vecs_a ,feat_vecs_b])
     
     rms = RMSprop()
-    model = Model(inputs=[img_a, aud_a, img_b
+    model = Model(inputs=[img_a, aud_a, img_b,aud_b], outputs=distance)
+    
