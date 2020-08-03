@@ -47,4 +47,6 @@ def siamese_network(input_dim_img,input_dim_aud):
     
     rms = RMSprop()
     model = Model(inputs=[img_a, aud_a, img_b,aud_b], outputs=distance)
-    
+    return rms,model
+
+def euc
