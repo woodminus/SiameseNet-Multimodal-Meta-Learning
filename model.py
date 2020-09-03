@@ -49,4 +49,5 @@ def siamese_network(input_dim_img,input_dim_aud):
     model = Model(inputs=[img_a, aud_a, img_b,aud_b], outputs=distance)
     return rms,model
 
-def euc
+def euclidean_distance(vects):
+  
