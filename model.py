@@ -50,4 +50,5 @@ def siamese_network(input_dim_img,input_dim_aud):
     return rms,model
 
 def euclidean_distance(vects):
-  
+    x, y = vects
+    return K
