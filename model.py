@@ -51,4 +51,4 @@ def siamese_network(input_dim_img,input_dim_aud):
 
 def euclidean_distance(vects):
     x, y = vects
-    return K.sqrt(K.sum(K.square(
+    return K.sqrt(K.sum(K.square(x - y), axis=1, keepdims=True))
