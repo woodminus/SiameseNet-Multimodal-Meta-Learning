@@ -59,4 +59,5 @@ def eucl_dist_output_shape(shapes):
     return (shape1[0], 1)
 
 def contrastive_loss(y_true, y_pred):
-    margin
+    margin = 1
+    return K.mean(y_
