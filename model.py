@@ -60,4 +60,6 @@ def eucl_dist_output_shape(shapes):
 
 def contrastive_loss(y_true, y_pred):
     margin = 1
-    return K.mean(y_true * K.square(y_pred) + (1 - y_true) * K.square(K.max
+    return K.mean(y_true * K.square(y_pred) + (1 - y_true) * K.square(K.maximum(margin - y_pred, 0)))
+
+def com
