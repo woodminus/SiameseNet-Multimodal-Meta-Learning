@@ -63,4 +63,4 @@ def contrastive_loss(y_true, y_pred):
     return K.mean(y_true * K.square(y_pred) + (1 - y_true) * K.square(K.maximum(margin - y_pred, 0)))
 
 def compute_accuracy(predictions, labels):
-    return 
+    return labels[predictions.ravel() < 
