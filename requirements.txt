@@ -1,2 +1,4 @@
 keras==2.2.4
-ten
+tensorflow==1.9.0
+numpy==1.14.2
+matpl
