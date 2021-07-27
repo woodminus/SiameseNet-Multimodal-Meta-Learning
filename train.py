@@ -8,3 +8,5 @@ Created on Fri May  1 21:25:00 2020
 import re
 import numpy as np
 from PIL import Image
+
+from sklearn.model_se
