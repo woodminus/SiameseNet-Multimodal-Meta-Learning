@@ -18,4 +18,6 @@ from keras.optimizers import RMSprop
 from keras.callbacks import EarlyStopping
 
 import features
-impo
+import model
+
+train_dir = "
