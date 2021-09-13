@@ -20,4 +20,6 @@ from keras.callbacks import EarlyStopping
 import features
 import model
 
-train_dir = "
+train_dir = "train"
+test_dir = "test"
+b
