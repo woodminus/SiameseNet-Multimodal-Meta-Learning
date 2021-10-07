@@ -22,4 +22,6 @@ import model
 
 train_dir = "train"
 test_dir = "test"
-b
+batch_size = 64
+epochs = 30
+inp
