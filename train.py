@@ -24,4 +24,5 @@ train_dir = "train"
 test_dir = "test"
 batch_size = 64
 epochs = 30
-inp
+input_dim_img = (56,56,1)
+input_d
