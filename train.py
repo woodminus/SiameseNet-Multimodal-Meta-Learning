@@ -25,4 +25,6 @@ test_dir = "test"
 batch_size = 64
 epochs = 30
 input_dim_img = (56,56,1)
-input_d
+input_dim_aud = (1025, 47,1)
+
+i
