@@ -27,4 +27,5 @@ epochs = 30
 input_dim_img = (56,56,1)
 input_dim_aud = (1025, 47,1)
 
-img_a,aud_a,img_b,aud_b,labels = features.data_generate(train_d
+img_a,aud_a,img_b,aud_b,labels = features.data_generate(train_dir)
+opt,model = model.s
