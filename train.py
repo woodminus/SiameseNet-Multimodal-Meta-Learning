@@ -31,4 +31,6 @@ img_a,aud_a,img_b,aud_b,labels = features.data_generate(train_dir)
 opt,model = model.siamese_model(input_img_dim,input_aud_dim)
 
 model.compile(loss=model.contrastive_loss, optimizer=opt)
-model.sum
+model.summary()
+
+es = EarlyStopping(
