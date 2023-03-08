@@ -34,4 +34,4 @@ model.compile(loss=model.contrastive_loss, optimizer=opt)
 model.summary()
 
 es = EarlyStopping(monitor='val_loss', mode='min', verbose=1)
-model.fit([im
+model.fit([img_a,aud_a,img_b,aud_b], lab
