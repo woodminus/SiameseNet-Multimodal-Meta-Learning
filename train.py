@@ -33,4 +33,5 @@ opt,model = model.siamese_model(input_img_dim,input_aud_dim)
 model.compile(loss=model.contrastive_loss, optimizer=opt)
 model.summary()
 
-es = EarlyStopping(monitor='val_loss', mode='min',
+es = EarlyStopping(monitor='val_loss', mode='min', verbose=1)
+model.fit([im
